@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMRapp's Basic Website</title>
+</head>
+<body>
+
+    <!-- MAIN --->
+    <header>
+        <h1>Contact the Galactic Empire</h1>
+        <!-- NAVIGATION-->
+        <div id="main-nav">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <!-- SECTION -->
+        <section>
+            <img height=155px src="images\star-destroyer-naboo.jpg" alt="Star Destroyer over Naboo">
+            <h3>Thank you for your interest in the Galactic Empire!</h3>
+            <p>If you're on this page, that means you want order restored to our Galaxy. 
+               Please fill out the following questionairre to give us a better understanding of
+               who you are and where you will fit in.</p>
+            <h3><i>Mandalorians Need Not Apply</i></h3>
+
+            <form>
+                <input type="text" name="firstName" placeholder="Enter your First Name">&nbsp;&nbsp;
+                <input type="text" name="lastName" placeholder="Enter your Last Name">&nbsp;&nbsp;
+                <input type="tel" name="lastName" placeholder="Enter your Holo-Call ID">&nbsp;&nbsp;
+                <br><br>
+                
+                <h3>SKILLS (Marksmen needed!)</h3>
+                Check all that apply<br>
+                <input type="checkbox" name="pilot" value="Pilot">Pilot
+                <input type="checkbox" name="marksman" value="Marksman">Marksman
+                <input type="checkbox" name="scientist" value="Scientist">Scientist
+                <input type="checkbox" name="engineer" value="ENgineer">Enigneer
+
+                <h3>ARE YOU...</h3>
+                A Clone?
+                <input type="radio" name="clone-y">Yes
+                <input type="radio" name="clone-n">No<br>
+
+                A Droid?
+                <input type="radio" name="droid-y">Yes
+                <input type="radio" name="droid-n">No<br>
+
+                Force Sensitive?
+                <input type="radio" name="force-y">Yes
+                <input type="radio" name="force-n">No<br>
+
+                A Former Resident of Alderaan?
+                <input type="radio" name="alderran-y">Yes
+                <input type="radio" name="alderran-n">No<br><br>
+
+                <input type="submit" name="submit">
+            </form>
+        </section>
+        <!-- FOOTER -->
+        <br><br>
+        <hr>
+        <footer>
+            <p>&copy 2023 Christian M Rapp | CMR Web Studio&nbsp;&nbsp;<img height=30px style="display:inline; vertical-align:middle" src="images\cmr 2-01.jpg"></p>
+        </footer>
+    </main>
+</body>
+</html>
